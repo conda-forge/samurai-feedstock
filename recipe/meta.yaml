@@ -1,5 +1,5 @@
 {% set name = "samurai" %}
-{% set version = "0.1.1" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,14 +7,14 @@ package:
 
 source:
   url: https://github.com/hpc-maths/samurai/archive/v{{ version }}.tar.gz
-  sha256: e0459f3e881b64d2e4bd99dcc5d2167265620616bf5a6e51db192f321a1a3b56
+  sha256: 2cc885211fcee2582d9219588d474071c1fa75d52fc43d976f538d739ad71b48
   # sha256 is the preferred checksum -- you can get it for a file with:
   #  `openssl sha256 <file name>`.
   # You may need the openssl package, available on conda-forge:
   #  `conda install openssl -c conda-forge``
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:
@@ -49,7 +49,7 @@ test:
 
 about:
   home: https://github.com/hpc-maths/samurai
-  summary: 'Intervals coupled with algebra of set to handle adaptive mesh refinement and operators on it'
+  summary: Intervals coupled with algebra of set to handle adaptive mesh refinement and operators on it
   description: |
     samurai allows to implement several mesh adaptation methods (patch-based, cell-based, point-based)
     from the same data structure. The mesh is represented as intervals and a set algebra allows to efficiently
