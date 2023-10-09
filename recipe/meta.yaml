@@ -14,7 +14,7 @@ source:
   #  `conda install openssl -c conda-forge``
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:
