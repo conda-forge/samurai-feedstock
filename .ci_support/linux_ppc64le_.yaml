@@ -13,6 +13,6 @@ docker_image:
 fmt:
 - '10'
 pugixml:
-- '1.13'
+- '1.14'
 target_platform:
 - linux-ppc64le

@@ -13,6 +13,6 @@ fmt:
 macos_machine:
 - x86_64-apple-darwin13.4.0
 pugixml:
-- '1.13'
+- '1.14'
 target_platform:
 - osx-64
