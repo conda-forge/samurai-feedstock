@@ -206,4 +206,5 @@ Feedstock Maintainers
 =====================
 
 * [@gouarin](https://github.com/gouarin/)
+* [@pmatalon](https://github.com/pmatalon/)
 
