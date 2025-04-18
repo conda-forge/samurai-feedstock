@@ -18,5 +18,7 @@ fmt:
 - '11.1'
 pugixml:
 - '1.15'
+xtensor:
+- '0.25'
 target_platform:
 - linux-aarch64
