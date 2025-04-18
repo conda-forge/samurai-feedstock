@@ -30,7 +30,7 @@ requirements:
     - pugixml
     - cli11
   run:
-    - xtensor
+    - xtensor <0.26
     - highfive
     - fmt
     - pugixml
