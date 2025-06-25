@@ -20,7 +20,5 @@ macos_machine:
 - x86_64-apple-darwin13.4.0
 pugixml:
 - '1.15'
-xtensor:
-- '0.25'
 target_platform:
 - osx-64
