@@ -24,7 +24,7 @@ requirements:
     - make  # [unix]
     - ninja  # [win]
   host:
-    - xtensor
+    - xtensor <0.26
     - highfive
     - fmt
     - pugixml
