@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/hpc-maths/samurai/archive/v{{ version }}.tar.gz
-  sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  sha256: 07971b2c5359cc33f5e3fb3f4f7d156b6aed91441139a1ae133378ba25e46d7a
   # sha256 is the preferred checksum -- you can get it for a file with:
   #  `openssl sha256 <file name>`.
   # You may need the openssl package, available on conda-forge:
