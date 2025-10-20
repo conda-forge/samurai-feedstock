@@ -28,13 +28,13 @@ requirements:
     - highfive > 2
     - fmt
     - pugixml
-    - cli11<2.5
+    - cli11 <2.5
   run:
     - xtensor >0.25
     - highfive > 2
     - fmt
     - pugixml
-    - cli11<2.5
+    - cli11 <2.5
 
 test:
   commands:
