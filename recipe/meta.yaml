@@ -24,14 +24,14 @@ requirements:
     - make  # [unix]
     - ninja  # [win]
   host:
-    - xtensor >0.25
-    - highfive > 2
+    - xtensor >=0.26
+    - highfive >=3
     - fmt
     - pugixml
     - cli11 <2.5
   run:
-    - xtensor >0.25
-    - highfive > 2
+    - xtensor >=0.26
+    - highfive >=3
     - fmt
     - pugixml
     - cli11 <2.5
