@@ -1,5 +1,5 @@
 {% set name = "samurai" %}
-{% set version = "0.26.1" %}
+{% set version = "0.27.0" %}
 
 package:
   name: {{ name|lower }}
@@ -24,17 +24,17 @@ requirements:
     - make  # [unix]
     - ninja  # [win]
   host:
-    - xtensor <0.26
-    - highfive
+    - xtensor >0.25
+    - highfive >= 3
     - fmt
     - pugixml
-    - cli11
+    - cli11<2.5
   run:
-    - xtensor <0.26
-    - highfive
+    - xtensor >0.25
+    - highfive >= 3
     - fmt
     - pugixml
-    - cli11
+    - cli11<2.5
 
 test:
   commands:
