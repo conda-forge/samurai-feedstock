@@ -6,8 +6,6 @@ channel_targets:
 - conda-forge main
 cxx_compiler:
 - vs2022
-fmt:
-- '11.2'
 pugixml:
 - '1.15'
 target_platform:

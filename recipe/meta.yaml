@@ -14,7 +14,7 @@ source:
   #  `conda install openssl -c conda-forge``
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -26,13 +26,13 @@ requirements:
   host:
     - xtensor >=0.26
     - highfive >=3
-    - fmt
+    - fmt >=11,<12
     - pugixml
     - cli11 <2.5
   run:
     - xtensor >=0.26
     - highfive >=3
-    - fmt
+    - fmt >=11,<12
     - pugixml
     - cli11 <2.5
 
