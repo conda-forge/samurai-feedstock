@@ -1,5 +1,5 @@
 {% set name = "samurai" %}
-{% set version = "0.27.0" %}
+{% set version = "0.27.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/hpc-maths/samurai/archive/v{{ version }}.tar.gz
-  sha256: 23d3e6475fbc674a887af84333b49ff6ac68fa8326e9edfdb49fa47491c28f4f
+  sha256: 5cb1ffb87a6a3defbde45037bd80e8277c31d577e20559c6cb2853b82bc989ba
   # sha256 is the preferred checksum -- you can get it for a file with:
   #  `openssl sha256 <file name>`.
   # You may need the openssl package, available on conda-forge:
