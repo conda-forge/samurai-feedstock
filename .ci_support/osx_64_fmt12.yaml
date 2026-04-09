@@ -15,10 +15,12 @@ cxx_compiler:
 cxx_compiler_version:
 - '19'
 fmt:
-- '12.1'
+- '12'
 macos_machine:
 - x86_64-apple-darwin13.4.0
 pugixml:
 - '1.15'
 target_platform:
 - osx-64
+zlib:
+- '1'

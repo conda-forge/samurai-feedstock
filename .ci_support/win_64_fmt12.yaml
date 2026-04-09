@@ -7,8 +7,10 @@ channel_targets:
 cxx_compiler:
 - vs2022
 fmt:
-- '12.1'
+- '12'
 pugixml:
 - '1.15'
 target_platform:
 - win-64
+zlib:
+- '1'

@@ -17,4 +17,6 @@ fmt:
 pugixml:
 - '1.15'
 target_platform:
-- linux-aarch64
+- linux-ppc64le
+zlib:
+- '1'
