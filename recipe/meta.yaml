@@ -24,12 +24,14 @@ requirements:
     - xtensor >=0.26
     - highfive >=3
     - fmt
+    - zlib
     - pugixml
     - cli11 <2.5
   run:
     - xtensor >=0.26
     - highfive >=3
     - fmt >=11,<13
+    - zlib
     - pugixml
     - cli11 <2.5
 
