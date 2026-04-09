@@ -11,7 +11,7 @@ source:
   # curl -L "https://github.com/hpc-maths/samurai/archive/v0.29.2.tar.gz" -o /tmp/samurai-0.29.2.tar.gz && shasum -a 256 /tmp/samurai-0.29.2.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -29,7 +29,7 @@ requirements:
   run:
     - xtensor >=0.26
     - highfive >=3
-    - fmt
+    - fmt >=11,<13
     - pugixml
     - cli11 <2.5
 
