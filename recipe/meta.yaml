@@ -23,7 +23,7 @@ requirements:
   host:
     - xtensor >=0.26
     - highfive >=3
-    - fmt {{ fmt }}.*
+    - fmt ={{ fmt }}
     - zlib
     - pugixml
     - cli11 <2.5
