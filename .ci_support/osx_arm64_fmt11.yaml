@@ -15,10 +15,16 @@ cxx_compiler:
 cxx_compiler_version:
 - '19'
 fmt:
-- '12.1'
+- '11'
 macos_machine:
 - arm64-apple-darwin20.0.0
+pin_run_as_build:
+  fmt:
+    min_pin: x
+    max_pin: x
 pugixml:
 - '1.15'
 target_platform:
 - osx-arm64
+zlib:
+- '1'

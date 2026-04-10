@@ -1,3 +1,8 @@
 fmt:
   - "11"
   - "12"
+
+pin_run_as_build:
+  fmt:
+    min_pin: "x"
+    max_pin: "x"

@@ -1,0 +1,20 @@
+c_stdlib:
+- vs
+channel_sources:
+- conda-forge
+channel_targets:
+- conda-forge main
+cxx_compiler:
+- vs2022
+fmt:
+- '12'
+pin_run_as_build:
+  fmt:
+    min_pin: x
+    max_pin: x
+pugixml:
+- '1.15'
+target_platform:
+- win-64
+zlib:
+- '1'
