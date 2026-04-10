@@ -23,78 +23,78 @@ description = "List contents of all packages found in rattler-build build direct
 [tasks.build]
 cmd = "rattler-build build --recipe recipe"
 description = "Build samurai-feedstock directly (without setup scripts), no particular variant specified"
+[tasks."build-linux_64_fmt11"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_fmt11.yaml"
+description = "Build samurai-feedstock with variant linux_64_fmt11 directly (without setup scripts)"
+[tasks."inspect-linux_64_fmt11"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_fmt11.yaml"
+description = "List contents of samurai-feedstock packages built for variant linux_64_fmt11"
 [tasks."build-linux_64_fmt12"]
 cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_fmt12.yaml"
 description = "Build samurai-feedstock with variant linux_64_fmt12 directly (without setup scripts)"
 [tasks."inspect-linux_64_fmt12"]
 cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_fmt12.yaml"
 description = "List contents of samurai-feedstock packages built for variant linux_64_fmt12"
-[tasks."build-linux_64_fmt12.1"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_fmt12.1.yaml"
-description = "Build samurai-feedstock with variant linux_64_fmt12.1 directly (without setup scripts)"
-[tasks."inspect-linux_64_fmt12.1"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_fmt12.1.yaml"
-description = "List contents of samurai-feedstock packages built for variant linux_64_fmt12.1"
+[tasks."build-linux_aarch64_fmt11"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_fmt11.yaml"
+description = "Build samurai-feedstock with variant linux_aarch64_fmt11 directly (without setup scripts)"
+[tasks."inspect-linux_aarch64_fmt11"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_fmt11.yaml"
+description = "List contents of samurai-feedstock packages built for variant linux_aarch64_fmt11"
 [tasks."build-linux_aarch64_fmt12"]
 cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_fmt12.yaml"
 description = "Build samurai-feedstock with variant linux_aarch64_fmt12 directly (without setup scripts)"
 [tasks."inspect-linux_aarch64_fmt12"]
 cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_fmt12.yaml"
 description = "List contents of samurai-feedstock packages built for variant linux_aarch64_fmt12"
-[tasks."build-linux_aarch64_fmt12.1"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_fmt12.1.yaml"
-description = "Build samurai-feedstock with variant linux_aarch64_fmt12.1 directly (without setup scripts)"
-[tasks."inspect-linux_aarch64_fmt12.1"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_fmt12.1.yaml"
-description = "List contents of samurai-feedstock packages built for variant linux_aarch64_fmt12.1"
+[tasks."build-linux_ppc64le_fmt11"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_ppc64le_fmt11.yaml"
+description = "Build samurai-feedstock with variant linux_ppc64le_fmt11 directly (without setup scripts)"
+[tasks."inspect-linux_ppc64le_fmt11"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_ppc64le_fmt11.yaml"
+description = "List contents of samurai-feedstock packages built for variant linux_ppc64le_fmt11"
 [tasks."build-linux_ppc64le_fmt12"]
 cmd = "rattler-build build --recipe recipe -m .ci_support/linux_ppc64le_fmt12.yaml"
 description = "Build samurai-feedstock with variant linux_ppc64le_fmt12 directly (without setup scripts)"
 [tasks."inspect-linux_ppc64le_fmt12"]
 cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_ppc64le_fmt12.yaml"
 description = "List contents of samurai-feedstock packages built for variant linux_ppc64le_fmt12"
-[tasks."build-linux_ppc64le_fmt12.1"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_ppc64le_fmt12.1.yaml"
-description = "Build samurai-feedstock with variant linux_ppc64le_fmt12.1 directly (without setup scripts)"
-[tasks."inspect-linux_ppc64le_fmt12.1"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_ppc64le_fmt12.1.yaml"
-description = "List contents of samurai-feedstock packages built for variant linux_ppc64le_fmt12.1"
+[tasks."build-osx_64_fmt11"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_fmt11.yaml"
+description = "Build samurai-feedstock with variant osx_64_fmt11 directly (without setup scripts)"
+[tasks."inspect-osx_64_fmt11"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_fmt11.yaml"
+description = "List contents of samurai-feedstock packages built for variant osx_64_fmt11"
 [tasks."build-osx_64_fmt12"]
 cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_fmt12.yaml"
 description = "Build samurai-feedstock with variant osx_64_fmt12 directly (without setup scripts)"
 [tasks."inspect-osx_64_fmt12"]
 cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_fmt12.yaml"
 description = "List contents of samurai-feedstock packages built for variant osx_64_fmt12"
-[tasks."build-osx_64_fmt12.1"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_fmt12.1.yaml"
-description = "Build samurai-feedstock with variant osx_64_fmt12.1 directly (without setup scripts)"
-[tasks."inspect-osx_64_fmt12.1"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_fmt12.1.yaml"
-description = "List contents of samurai-feedstock packages built for variant osx_64_fmt12.1"
+[tasks."build-osx_arm64_fmt11"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_fmt11.yaml"
+description = "Build samurai-feedstock with variant osx_arm64_fmt11 directly (without setup scripts)"
+[tasks."inspect-osx_arm64_fmt11"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_fmt11.yaml"
+description = "List contents of samurai-feedstock packages built for variant osx_arm64_fmt11"
 [tasks."build-osx_arm64_fmt12"]
 cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_fmt12.yaml"
 description = "Build samurai-feedstock with variant osx_arm64_fmt12 directly (without setup scripts)"
 [tasks."inspect-osx_arm64_fmt12"]
 cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_fmt12.yaml"
 description = "List contents of samurai-feedstock packages built for variant osx_arm64_fmt12"
-[tasks."build-osx_arm64_fmt12.1"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_fmt12.1.yaml"
-description = "Build samurai-feedstock with variant osx_arm64_fmt12.1 directly (without setup scripts)"
-[tasks."inspect-osx_arm64_fmt12.1"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_fmt12.1.yaml"
-description = "List contents of samurai-feedstock packages built for variant osx_arm64_fmt12.1"
+[tasks."build-win_64_fmt11"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/win_64_fmt11.yaml"
+description = "Build samurai-feedstock with variant win_64_fmt11 directly (without setup scripts)"
+[tasks."inspect-win_64_fmt11"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/win_64_fmt11.yaml"
+description = "List contents of samurai-feedstock packages built for variant win_64_fmt11"
 [tasks."build-win_64_fmt12"]
 cmd = "rattler-build build --recipe recipe -m .ci_support/win_64_fmt12.yaml"
 description = "Build samurai-feedstock with variant win_64_fmt12 directly (without setup scripts)"
 [tasks."inspect-win_64_fmt12"]
 cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/win_64_fmt12.yaml"
 description = "List contents of samurai-feedstock packages built for variant win_64_fmt12"
-[tasks."build-win_64_fmt12.1"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/win_64_fmt12.1.yaml"
-description = "Build samurai-feedstock with variant win_64_fmt12.1 directly (without setup scripts)"
-[tasks."inspect-win_64_fmt12.1"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/win_64_fmt12.1.yaml"
-description = "List contents of samurai-feedstock packages built for variant win_64_fmt12.1"
 
 [feature.smithy.dependencies]
 conda-smithy = "*"

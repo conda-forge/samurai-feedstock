@@ -22,12 +22,17 @@ jobs:
       max-parallel: 50
       matrix:
         include:
+          - CONFIG: linux_64_fmt11
+            UPLOAD_PACKAGES: True
+            os: ubuntu
+            runs_on: ['ubuntu-latest']
+            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
           - CONFIG: linux_64_fmt12
             UPLOAD_PACKAGES: True
             os: ubuntu
             runs_on: ['ubuntu-latest']
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-          - CONFIG: linux_64_fmt12.1
+          - CONFIG: linux_aarch64_fmt11
             UPLOAD_PACKAGES: True
             os: ubuntu
             runs_on: ['ubuntu-latest']
@@ -37,17 +42,12 @@ jobs:
             os: ubuntu
             runs_on: ['ubuntu-latest']
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-          - CONFIG: linux_aarch64_fmt12.1
+          - CONFIG: linux_ppc64le_fmt11
             UPLOAD_PACKAGES: True
             os: ubuntu
             runs_on: ['ubuntu-latest']
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
           - CONFIG: linux_ppc64le_fmt12
-            UPLOAD_PACKAGES: True
-            os: ubuntu
-            runs_on: ['ubuntu-latest']
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-          - CONFIG: linux_ppc64le_fmt12.1
             UPLOAD_PACKAGES: True
             os: ubuntu
             runs_on: ['ubuntu-latest']

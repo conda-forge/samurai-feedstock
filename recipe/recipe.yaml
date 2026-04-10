@@ -3,6 +3,7 @@ schema_version: 1
 context:
   name: samurai
   version: "0.29.2"
+  _fmt: ${{ fmt }}
 
 package:
   name: ${{ name|lower }}
@@ -28,14 +29,14 @@ requirements:
   host:
     - xtensor >=0.26
     - highfive >=3
-    - fmt ${{ fmt }}.*
+    - fmt
     - zlib
     - pugixml
     - cli11 <2.5
   run:
     - xtensor >=0.26
     - highfive >=3
-    - ${{ pin_compatible('fmt', upper_bound='x') }}
+    - fmt
     - zlib
     - pugixml
     - cli11 <2.5
