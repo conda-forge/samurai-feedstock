@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: samurai
-  version: "0.29.2"
+  version: "0.30.0"
   _fmt: ${{ fmt }}
 
 package:
@@ -10,12 +10,12 @@ package:
   version: ${{ version }}
 
 source:
-  # curl -L "https://github.com/hpc-maths/samurai/archive/v0.29.2.tar.gz" -o /tmp/samurai-0.29.2.tar.gz && shasum -a 256 /tmp/samurai-0.29.2.tar.gz
+  # curl -L "https://github.com/hpc-maths/samurai/archive/v0.30.0.tar.gz" -o /tmp/samurai-0.30.0.tar.gz && shasum -a 256 /tmp/samurai-0.30.0.tar.gz
   url: https://github.com/hpc-maths/samurai/archive/v${{ version }}.tar.gz
-  sha256: 7816f4269b6b93410d2d89ab65ada793317d5fa08b5f5b8a0e6e83e109d564a0
+  sha256: b1e28079a75b9680884d736848fef25ec5ae0aee8c0de5680ca4b553c2c54543
 
 build:
-  number: 4
+  number: 0
 
 requirements:
   build:
@@ -56,10 +56,12 @@ tests:
       - if: win
         then: if not exist %LIBRARY_PREFIX%\share\samurai\samuraiConfig.cmake (exit 1)
       - if: win
-        then: if not exist %LIBRARY_PREFIX%\share\samurai\samuraiConfigVersion.cmake (exit 1)
+        then: if not exist %LIBRARY_PREFIX%\share\samurai\samuraiConfigVersion.cmake
+          (exit 1)
 
 about:
-  summary: Intervals coupled with algebra of set to handle adaptive mesh refinement and operators on it
+  summary: Intervals coupled with algebra of set to handle adaptive mesh
+    refinement and operators on it
   description: |
     samurai allows to implement several mesh adaptation methods (patch-based, cell-based, point-based)
     from the same data structure. The mesh is represented as intervals and a set algebra allows to efficiently
