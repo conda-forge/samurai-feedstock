@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: samurai
-  version: "0.30.1"
+  version: "0.31.1"
   _fmt: ${{ fmt }}
 
 package:
@@ -10,9 +10,9 @@ package:
   version: ${{ version }}
 
 source:
-  # curl -L "https://github.com/hpc-maths/samurai/archive/v0.30.0.tar.gz" -o /tmp/samurai-0.30.0.tar.gz && shasum -a 256 /tmp/samurai-0.30.0.tar.gz
+  # curl -L "https://github.com/hpc-maths/samurai/archive/v0.31.1.tar.gz" -o /tmp/samurai-0.31.1.tar.gz && shasum -a 256 /tmp/samurai-0.31.1.tar.gz
   url: https://github.com/hpc-maths/samurai/archive/v${{ version }}.tar.gz
-  sha256: 551c92fd86617b1ffaaa10face33c20b0cf5738a52105be810e243e4cea2b076
+  sha256: 863640f43cf35dd9d9d2e0e2ced2099bac0c190858c446ebe6abf68aea9fd970
 
 build:
   number: 0
